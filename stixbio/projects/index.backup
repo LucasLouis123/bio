@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stix' Bio - Projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Stix' Bio">
+  <meta property="og:description" content="Stix' open source projects (coming soon as I'm too lazy rn)">
+  <meta property="og:image" content="https://stix.bio/icon.gif">
+  <meta name="theme-color" content="#990000"> 
+  <link rel="icon" href="../icon.gif">
+  <link rel="stylesheet" href="styles.css">
+  <script src="title.js"></script>
+  <script src="lsfx.js"></script>
+  <script src="https://cdn.discordapp.com/developers/docs/game-sdk/discord-sdk.js"></script>
+  <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
+  <script src="anti.js"></script>
+</head>
+<body>
+  <div id="navbar">
+    <a href="../" id="home-link">
+      <img src="../home.ico" alt="Home" id="home-icon">
+    </a>
+    <ul>
+      <li><a href="../homies">Homies</a></li>
+      <li><a href="../projects/">Projects</a></li>
+    </ul>
+  </div>
+  <div class="disable-inspect"></div>
+  <script src="./main.js"></script>
+
+  <div id="landing-page">
+    <div class="black-screen">
+      <button class="enter-button" onclick="enterSite()">Click to Enter</button>
+    </div>
+  </div>
+
+  <audio id="background-music" preload="auto" loop>
+    <source type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <video id="video-background" muted autoplay loop>
+    <source src="../assets/projects_bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="content">
+  </div>
+  
+
+  <div class="container">
+    <div class="profile-container">
+      <div class="profile-picture">
+        <img src="./pfp.gif" alt="Profile Picture">
+        <div class="gif-overlay">
+          <img src="" hidden>
+        </div>        
+      </div>
+      <div class="profile-username">Stix' Projects</div>
+    </div>
+    <p>Coming very soon!</p>
+  </div>
+
+</body>
+</html>
